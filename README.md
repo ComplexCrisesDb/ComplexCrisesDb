@@ -1,38 +1,9 @@
+<!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 
 # Complex Crises database (CCDB), Finance Lab, PSE
 
-Update and Maintenance of the complex crises database for the Finance Lab 
-
-## Getting started with git
-
-To make it easy for you to get started with github, here's a list of recommended next steps.
-
-- [Git instructions](inst/git_documentation/git_instructions_short.html)
-- [Git install](inst/git_documentation/install.html)
-- [Git project setup](inst/git_documentation/project-setup.html)
-- [Git workflow](inst/git_documentation/workflow.html)
-
-
-```
-#create a new branch called "my-branch" and switch to it
-
-git checkout -b my-branch
-
-#make edits to your scripts, save then commit
-
-git add  one-script.R another-script.R
-git commit -m "example of commit message"
-
-# push your changes in "my-branch" to the repository
-git push -u origin my-branch
-
-#in the github repository go to the repository and create a merge request
-#once the changes have been merged, switch back to master and pull the changes
-
-git checkout master
-git pull
-
-```
+Update and Maintenance of the complex crises database by the Finance Lab (Paris School of Economics)
 
 ## Project Description 
 
@@ -211,5 +182,36 @@ Special thanks to Umberto Collodel that has largely contributed to the creation 
 ## Project status
 
 The project is currently in development, improvements in the source code and the database are expected to be published by Septembre 2022. 
+
+## Getting started with git
+
+To make it easy for you to get started with github, here's a list of recommended next steps.
+
+- [Git instructions](inst/git_documentation/git_instructions_short.html)
+- [Git install](inst/git_documentation/install.html)
+- [Git project setup](inst/git_documentation/project-setup.html)
+- [Git workflow](inst/git_documentation/workflow.html)
+
+
+```
+#create a new branch called "my-branch" and switch to it
+
+git checkout -b my-branch
+
+#make edits to your scripts, save then commit
+
+git add  one-script.R another-script.R
+git commit -m "example of commit message"
+
+# push your changes in "my-branch" to the repository
+git push -u origin my-branch
+
+#in the github repository go to the repository and create a merge request
+#once the changes have been merged, switch back to master and pull the changes
+
+git checkout master
+git pull
+
+```
 
 
