@@ -20,7 +20,10 @@ The structure of the project is structure to mimic the file structure used for d
 
   1. **Block 1** => *IMFdocsDownloader* (private) Rpackage:  API for the download of IMF reports [repository](https://github.com/manuelbetin/IMF_Report_API)
   2. **Block 2** => *CCDr* (public) Rpackage: Toolbox for NLP processing [repository](https://github.com/ComplexCrisesDb/CCDr)
-  3. **Block 3** => CCDB (private) source code for the update the database [repository](https://github.com/ComplexCrisesDb/CCD_Financelab)
+  3. **Block 3** => *CCDB* (private) source code for the update the database [repository](https://github.com/ComplexCrisesDb/CCD_Financelab) that provide absolute
+  indicators of crisis.
+  4. **Block 4** => *CCDBfasttext* (private) code to generate the word embedding and 
+  text classifier that is used to generate the relative measures of crisis
 
 ![](inst/project_documentation/images/R_folder_example.png)
 
